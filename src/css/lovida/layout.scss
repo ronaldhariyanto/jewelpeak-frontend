@@ -1,0 +1,28 @@
+.button-side-2 {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+	.btn {
+	  flex: auto;
+	  width: 48%;
+	  margin: 1%;
+	}
+}
+
+.button-side-1 {
+  display: flex;
+  flex-direction: column;
+
+  .btn {
+	  flex: auto;
+	  width: 400px;
+	  align-items: center;
+	  margin: 5px auto;
+	}
+}
+
+.no-side-padding {
+	padding-left: 0;
+	padding-right: 0;
+}

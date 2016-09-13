@@ -1,0 +1,155 @@
+.newsletter {
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 2.5em;
+
+  h3 {
+    margin: 0;
+    font-family: $font-family-brandon;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #222;
+    text-align: center;
+  }
+
+  p {
+    font-family: $font-family-serif;
+    color: lighten(#222, 6.5%);
+    margin-bottom: 0;
+    line-height: 1.3em;
+    font-style: italic;
+  }
+}
+
+.footer {
+	background-color: #efefef;
+  border-top: 2px solid darken(#eee, 1);
+	padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #949494;
+
+  @media (max-width: $screen-sm-max) {
+    padding-top: 2.5em;
+  }
+}
+
+.footer-row-first {
+
+  @media (max-width: $screen-sm-max) {
+    display: flex;
+    flex-flow: wrap row;
+
+    .row {
+      padding-top: 15px;
+    }
+
+    > div:nth-of-type(1) {
+      flex: auto;
+      order: 2;
+    }
+
+    > div:nth-of-type(2) {
+      order: 1;
+      flex: auto;
+    }
+  }
+}
+
+.footer-row-second {
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  @media (max-width: $screen-sm-max) {
+    padding-top: 0;
+  }
+}
+
+.footer-title {
+	font-size: 12px;
+	line-height: 15px;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  a {
+  	color: #949494;
+
+  	&:hover,
+  	&:active {
+  		color: #414141;
+  	}
+  }
+}
+
+.footer-info {
+	padding-top: 15px;
+	padding-bottom: 15px;
+  text-align: center;
+
+  img {
+  	max-width: 90%;
+  }
+}
+
+.footer-newsletter-title {
+  text-align: center;
+}
+
+.footer-newsletter {
+  margin: 0 auto;
+}
+
+.footer-newsletter-form {
+  .btn {
+    text-transform: uppercase;
+  }
+}
+
+.footer-social-title {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+
+  li {
+    padding: 0 5px;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #414141;
+    border-radius: 50%;
+  }
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #BDBDBD;
+  font-size: 12px;
+  line-height: 14px;
+
+  a {
+  	color: #414141;
+  	font-weight: 600;
+  }
+}

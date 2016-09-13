@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lovida</title>
+<link href="assets/css/app.min.css" rel="stylesheet">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  </head>
+  <body>
+    <header class="header hidden-sm hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="Logo" class="img-responsive"></a>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-unstyled list-inline menu user-menu pull-right">
+          <li><a href="">Sign in</a></li>
+          <li></li>
+          <li><a href="">Sign up</a></li>
+        </ul>
+        <div class="clearfix"></div>
+        <ul class="list-unstyled list-inline menu action-menu pull-right">
+          <li class="quick-cart">
+            <a href="#">
+              <span class="badge btn-xs badge-corner">2</span>
+              <i class="fa fa-shopping-cart"></i>
+            </a>
+            <div class="quick-cart-box">
+              <h4>Shop Cart</h4>
+
+              <div class="quick-cart-wrapper">
+
+                <a href="#">
+                  <img src="assets/images/product/product-600-02.jpg" height="45" alt="" />
+                  <h6><span>2x</span> RED BAG WITH HUGE POCKETS</h6>
+                  <small>$37.21</small>
+                </a>
+
+                <a href="#">
+                  <img src="assets/images/product/product-600-03.jpg" height="45" alt="" />
+                  <h6><span>2x</span> THIS IS A VERY LONG TEXT AND WILL BE TRUNCATED</h6>
+                  <small>$17.18</small>
+                </a>
+
+                <a class="text-center" href="#">
+                  <h6>0 ITEMS ON YOUR CART</h6>
+                </a>
+
+              </div>
+
+              <div class="quick-cart-footer clearfix">
+                <a href="#" class="btn btn-primary btn-xs pull-right">VIEW CART</a>
+                <span class="pull-left"><strong>TOTAL:</strong> $54.39</span>
+              </div>
+            </div>
+          </li>
+          <li class="search">
+            <a href="javascript:;"><i class="fa fa-search"></i></a>
+            <div class="search-box">
+              <form action="page-search-result-1.html" method="get">
+                <div class="input-group">
+                  <input type="text" name="src" placeholder="Search" class="form-control" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <nav class="navbar navbar-default navigation" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+
+    <div class="navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+      <ul class="nav navbar-nav">
+        <li class="home active dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="index.html"><i class="fa fa-home"></i></a>
+          <div class="dropdown-menu">
+            <ul class="navigation-child-box menu-submenu">
+              <li class="navigation-child-title"><strong>Page</strong></li>
+              <li class="navigation-child-list"><a href="search.html">Search Page</a></li>
+              <li class="navigation-child-list"><a href="product-category.html">Product Category</a></li>
+              <li class="navigation-child-list"><a href="product-category-setting.html">Product Category Setting</a></li>
+              <li class="navigation-child-list"><a href="product-category-review.html">Product Category Review</a></li>
+              <li class="navigation-child-list"><a href="product-detail.html">Product Detail</a></li>
+              <li class="navigation-child-list"><a href="cart.html">Cart</a></li>
+              <li class="navigation-child-list"><a href="checkout-1.html">Checkout Step 1</a></li>
+              <li class="navigation-child-list"><a href="checkout-2.html">Checkout Step 2</a></li>
+              <li class="navigation-child-list"><a href="checkout-3.html">Checkout Step 3</a></li>
+              <li class="navigation-child-list"><a href="checkout-4.html">Checkout Step 4</a></li>
+              <li class="navigation-child-list"><a href="checkout-5.html">Checkout Step 5</a></li>
+            </ul>
+          </div>
+        </li>
+        </li>
+        <li class="dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="designer.html">Designer</a>
+          <div class="dropdown-menu">
+            <ul class="navigation-child-box menu-submenu">
+              <li class="navigation-child-list"><a href="designer.html">Designer</a></li>
+              <li class="navigation-child-list"><a href="designer-detail.html">Designer Detail</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="collections.html">Collections</a></li>
+        <li class="dropdown mega-menu">
+          <a data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="collections-jewelry.html">Jewelry</a>
+          <div class="dropdown-menu mega-menu-content">
+            <div class="container-fluid">
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box menu-submenu">
+                  <li class="navigation-child-title"><strong>Earrings</strong></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-studs"></i>Design your own studs</a></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-matching"></i>Preset Diamond Studs</a></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-gemstone-earing"></i>Mile Coeurs Gemstone Earrings</a></li>
+                  <li class="navigation-child-devider"></li>
+                  <li class="navigation-child-title"><strong>Rings</strong></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-royal-halo"></i>Royal Halo Diamond Rings</a></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-gemstone-ring"></i>Mile Coeurs Gemstone Rings</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box menu-submenu">
+                  <li class="navigation-child-title"><strong>Necklaces</strong></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-pendant"></i>Design your own Pendants</a></li>
+                  <li class="navigation-child-list"><a href="collections-jewelry.html"><i class="icon icon-pendant-diamond"></i>Preset Diamond Pendants</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box">
+                  <li class="navigation-child-product">
+                    <a class="navigation-child-product-link" href="collections-jewelry.html">
+                      <img class="img-responsive" src="assets/images/homepage-social/04.jpg" alt="product">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="dropdown mega-menu">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="collections-diamond.html">Diamonds</a>
+          <div class="dropdown-menu mega-menu-content">
+            <div class="container-fluid">
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box menu-submenu">
+                  <li class="navigation-child-title"><strong>Search Diamond Gallery</strong></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-round-cut"></i>Round Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-princess-cut"></i>Princess Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-emerald-cut"></i>Emerald Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-asscher-cut"></i>Asscher Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-oval-cut"></i>Oval Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-radiant-cut"></i>Radiant Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-pear-shaped"></i>Pear Shaped</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-heart-shaped"></i>Heart Shaped</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-marquise-cut"></i>Marquise Cut</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-cushion-cut"></i>Cushion Cut</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box menu-submenu">
+                  <li class="navigation-child-title"><strong>Design your Own</strong></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-engagement-ring"></i>Diamond Engagment Ring</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-studs"></i>Diamond Studs</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-pendant"></i>Diamond Pendant</a></li>
+                  <li class="navigation-child-devider"></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-diamond"></i>Fancy Color Diamonds</a></li>
+                  <li class="navigation-child-list"><a href="collections-diamond.html"><i class="icon icon-diamond-pair"></i>Matching Diamond Pairs</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box">
+                  <li class="navigation-child-product">
+                    <a class="navigation-child-product-link" href="collections-diamond.html">
+                      <img class="img-responsive" src="assets/images/homepage-social/02.jpg" alt="product">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="dropdown mega-menu">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="collections-gemstone.html">Gemstones</a>
+          <div class="dropdown-menu mega-menu-content">
+            <div class="container-fluid">
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box menu-submenu">
+                  <li class="navigation-child-title"><strong>Search Gemstone Gallery</strong></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-round-cut blue"></i>Blue Sapphire</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-round-cut pink"></i>Pink Sapphire</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-round-cut yellow"></i>Yellow Sapphire</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-round-cut red"></i>Red Ruby</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-round-cut green"></i>Green Emerald</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box menu-submenu">
+                  <li class="navigation-child-title"><strong>Design your Own</strong></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-engagement-ring"></i>Gemstone Engagment Ring</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-studs"></i>Gemstone Studs</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-pendant"></i>Gemstone Pendant</a></li>
+                  <li class="navigation-child-devider"></li>
+                  <li class="navigation-child-title"><strong>Mille Coeurs Collections</strong></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-gemstone-ring"></i>Gemstone Rings</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-gemstone-earing"></i>Gemstone Earrings</a></li>
+                  <li class="navigation-child-list"><a href="collections-gemstone.html"><i class="icon icon-gemstone-pendant"></i>Gemstone Pendants</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 mega-menu-content-3">
+                <ul class="navigation-child-box">
+                  <li class="navigation-child-product">
+                    <a class="navigation-child-product-link" href="collections-gemstone.html">
+                      <img class="img-responsive" src="assets/images/homepage-social/05.jpg" alt="product">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="">Services</a></li>
+        <li class="dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" href="magazine.html">Magazine</a>
+          <div class="dropdown-menu">
+            <ul class="navigation-child-box">
+              <li class="navigation-child-list"><a href="magazine.html">Magazine</a></li>
+              <li class="navigation-child-list"><a href="magazine-category.html">Magazine Category</a></li>
+              <li class="navigation-child-list"><a href="magazine-detail.html">Magazine Detail</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+  </div>
+</nav>
+<div class="mobile-logo visible-sm visible-xs">
+  <a href="index.html" class="logo"><img src="assets/images/logo.svg" height="28" alt="Logo" class="img-responsive"></a>
+</div>
+
+
+    <section class="designer-main-banner" style="background-image:url('assets/images/designer-banner-02.jpg')">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-6  text-center">
+          <div class="collections-main-banner-box">
+            <h3>A dazzling selection that will put a twinkle in your eyes</h3>
+            <div class="button-side-1">
+              <a class="btn btn-primary btn-lg" href="collections-diamond-details.html">Diamond Engagement Ring</a>
+              <a class="btn btn-primary btn-lg" href="collections-diamond-details.html">Choose Your Diamond</a>
+              <a class="btn btn-primary btn-lg" href="collections-diamond-details.html">Choose Your Setting</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="designer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 designer-wrapper">
+            <div class="designer-sidebar">
+              <h4 class="designer-sidebar-title">
+                Jewelry
+              </h4>
+              <ul class="designer-sidebar-list">
+                <li><a href="">Earnings</a></li>
+                <li><a href="">Necklaces</a></li>
+                <li><a href="">Bracelets</a></li>
+                <li><a href="">Fashion Rings</a></li>
+              </ul>
+              <div class="designer-sidebar-devider"></div>
+              <h4 class="designer-sidebar-title">
+                Collections
+              </h4>
+              <ul class="designer-sidebar-list">
+                <li><a href="">Simply Diamonds</a></li>
+                <li><a href="">Chrams</a></li>
+                <li><a href="">Station &amp; Chains</a></li>
+                <li><a href="">Classics</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-9 designer-wrapper">
+            <div class="designer-content">
+              <div class="designer-content-box designer-content-full">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-01.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">Jewelpeak</a></h4>
+                  <p>Our diamond jewelry collection has endless styles of unique and exclusive designs, as well as modern trends and beloved classics.</p>
+                </div>
+              </div>
+              <div class="designer-content-box">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-02.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">LALIQUE</a></h4>
+                  <p>Our diamond jewelry collection has endless styles of unique and exclusive designs, as well as modern trends and beloved classics.</p>
+                </div>
+              </div>
+              <div class="designer-content-box">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-03.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">PINWHEEL</a></h4>
+                  <p>Gems come in a wide variety of quality, and we believe in showing only the very best. All of our gemstones are of the finest calibre.</p>
+                </div>
+              </div>
+              <div class="designer-content-box">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-04.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">MIJA</a></h4>
+                  <p>Our diamond jewelry collection has endless styles of unique and exclusive designs, as well as modern trends and beloved classics.</p>
+                </div>
+              </div>
+              <div class="designer-content-box">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-05.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">HONORA</a></h4>
+                  <p>Gems come in a wide variety of quality, and we believe in showing only the very best. All of our gemstones are of the finest calibre.</p>
+                </div>
+              </div>
+              <div class="designer-content-box">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-06.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">MIMI SO</a></h4>
+                  <p>Our diamond jewelry collection has endless styles of unique and exclusive designs, as well as modern trends and beloved classics.</p>
+                </div>
+              </div>
+              <div class="designer-content-box">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-01.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">GREGG RUTH</a></h4>
+                  <p>Gems come in a wide variety of quality, and we believe in showing only the very best. All of our gemstones are of the finest calibre.</p>
+                </div>
+              </div>
+              <div class="designer-content-box designer-content-full">
+                <div class="designer-content-image">
+                  <img src="assets/images/product/product-600-03.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="designer-content-text">
+                  <h4><a href="designer-detail.html">ALL DESIGNER COLLECTIONS</a></h4>
+                  <p>Our diamond jewelry collection has endless styles of unique and exclusive designs, as well as modern trends and beloved classics.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+  <div class="container">
+    <div class="row footer-row-first">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4 class="footer-title">About Us</h4>
+            <ul class="footer-nav">
+              <li><a href="">Our Story</a></li>
+              <li><a href="">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <h4 class="footer-title">Policies</h4>
+            <ul class="footer-nav">
+              <li><a href="">Shipping &amp; Returns</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <h4 class="footer-title">Learn</h4>
+            <ul class="footer-nav">
+              <li><a href="">Diamonds</a></li>
+              <li><a href="">Gems</a></li>
+              <li><a href="">Metal</a></li>
+              <li><a href="">Engagement Ring</a></li>
+              <li><a href="">Ring Size</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4 class="footer-title footer-newsletter-title">Newsletter</h4>
+        <p class="footer-newsletter-desc">Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+        <div class="footer-newsletter">
+          <form class="footer-newsletter-form" action="" method="post">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Email">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Subscribe</button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row footer-row-second">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4 class="footer-title">Shop with Confidence</h4>
+            <ul class="footer-nav">
+              <li><a href="">Why Buy From Us?</a></li>
+              <li><a href="">Our Certifications</a></li>
+              <li><a href="">Testimonial</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <h4 class="footer-title">Costomer Delight</h4>
+            <ul class="footer-nav">
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4 class="footer-title footer-social-title">Follow Us On</h4>
+        <ul class="footer-social">
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row footer-row-third">
+      <div class="col-md-12">
+        <div class="footer-info">
+          <img src="assets/images/footer_paymentbanner.png" alt="JewelPeak">
+        </div>
+        <div class="footer-copyright">
+          Copyright &copy; 2016, All Rights Reserved <a href="">Lovida Diamonds.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<a href="#" id="toTop" class="scroll-to-top"></a>
+
+    <script src="assets/js/app.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.search-title {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  margin-bottom: 30px;
+
+  .headtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 26px;
+
+    span {
+      color: #552B4B;
+      font-weight: 600;
+      font-size: 36px;
+      padding-left: 20px;
+
+      &:before {
+        display: inline-block;
+        content: "'";
+        padding-right: 5px;
+      }
+
+      &:after {
+        display: inline-block;
+        content: "'";
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.search-find {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.search-found {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.search-content-box {
+
+  border: 1px solid #eee;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+
+  .scb-title {
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+
+    a {
+      color: #000;
+    }
+  }
+
+  .scb-price {
+    margin: 0;
+    padding: 5px 10px 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #552B4B;
+  }
+}

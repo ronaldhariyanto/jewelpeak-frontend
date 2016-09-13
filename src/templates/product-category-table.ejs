@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include partials/head %>
+  </head>
+  <body>
+    <% include partials/header %>
+    <% include partials/navigation %>
+
+    <section class="product-category">
+      <header>
+        <div class="product-category-header ">
+          <div class="container product-category-bg-gemstone">
+            <h1 class="product-category-head-title">
+              Gemstone Engagement
+            </h1>
+            <p class="product-category-head-txt">
+              Create the perfect engagement ring.<br>Choose from any style, any stone, any metal.<br>A one-of-a-kind engagement ring created just for you.
+            </p>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="clearfix product-head-choose">
+          <div class="col-lg-4 no-side-padding">
+            <a href="product-category.html" class="btn btn-block active">Choose Gemstone</a>
+          </div>
+          <div class="col-lg-4 no-side-padding">
+            <a href="product-category-setting.html" class="btn btn-block">Choose Setting</a>
+          </div>
+          <div class="col-lg-4 no-side-padding">
+            <a href="product-category-review.html" class="btn btn-block">Review Selection</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="filters-drawer">
+              <div class="filters-drawer-content">
+                <div class="filter-group filter-shape">
+                  <label for="">Shape</label>
+                  <i class="icon icon-round-cut"></i>
+                  <i class="icon icon-princess-cut"></i>
+                  <i class="icon icon-emerald-cut"></i>
+                  <i class="icon icon-asscher-cut"></i>
+                  <i class="icon icon-oval-cut"></i>
+                  <i class="icon icon-radiant-cut"></i>
+                  <i class="icon icon-pear-shaped"></i>
+                  <i class="icon icon-heart-shaped"></i>
+                  <i class="icon icon-marquise-cut"></i>
+                  <i class="icon icon-cushion-cut"></i>
+                </div>
+                <div class="filter-group filter-metal">
+                  <label for="">Metal</label>
+                  <div class="icon">
+                    <i class="fa fa-check fa-2x"></i>
+                    <span class="icon-title">All</span>
+                  </div>
+                  <div class="icon">
+                    <i class="metal-icon metal-silver"><span>925</span></i>
+                    <span class="icon-title">Silver</span>
+                  </div>
+                  <div class="icon">
+                    <i class="metal-icon metal-gold-white"><span>18</span></i>
+                    <span class="icon-title">White Gold</span>
+                  </div>
+                  <div class="icon">
+                    <i class="metal-icon metal-gold-yellow"><span>18</span></i>
+                    <span class="icon-title">Yellow Gold</span>
+                  </div>
+                  <div class="icon">
+                    <i class="metal-icon metal-gold-rose"><span>18</span></i>
+                    <span class="icon-title">Rose Gold</span>
+                  </div>
+                </div>
+                <div class="filter-group filter-ring">
+                  <label for="">Setting</label>
+                  <i class="icon icon-solitaire"></i>
+                  <i class="icon icon-pave"></i>
+                  <i class="icon icon-channel-set"></i>
+                  <i class="icon icon-side-stone"></i>
+                  <i class="icon icon-three-stone"></i>
+                  <i class="icon icon-tension"></i>
+                  <i class="icon icon-halo"></i>
+                  <i class="icon icon-vintage"></i>
+                  <i class="icon icon-bridal-set"></i>
+                </div>
+              </div>
+              <div class="filters-drawer-trigger">
+                More Filters
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-category">
+      <div class="container">
+        <div class="product-filter clearfix">
+            <p class="pull-left"> Showing <strong>65</strong> results </p>
+
+            <div class="pull-right ">
+                <div class="change-order pull-right">
+                    <select class="select2 form-control" name="orderby">
+                        <option selected="selected">Default sorting</option>
+                        <option value="popularity">Sort by popularity</option>
+                        <option value="rating">Sort by average rating</option>
+                        <option value="date">Sort by newness</option>
+                        <option value="price">Sort by price: low to high</option>
+                        <option value="price-desc">Sort by price: high to low</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <table class="table table-bordered" data-toggle="table">
+          <thead>
+              <tr>
+                  <th>Actual Photo</th>
+                  <th>Shape</th>
+                  <th>Carat</th>
+                  <th>Color</th>
+                  <th>Price</th>
+                  <th>Compare</th>
+                  <th>Wishlist</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>1</td>
+                  <td>Item 1</td>
+                  <td>$1</td>
+              </tr>
+              <tr>
+                  <td>2</td>
+                  <td>Item 2</td>
+                  <td>$2</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <% include partials/footer %>
+    <% include partials/scripts %>
+  </body>
+</html>

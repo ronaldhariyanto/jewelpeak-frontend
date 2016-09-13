@@ -1,0 +1,271 @@
+.designer {
+
+	&-main-banner {
+	  position: relative;
+	  height: 400px;
+	  background-position: center top;
+	  background-repeat: no-repeat;
+
+		@media (max-width: $screen-sm-max) {
+			height: auto;
+		}
+
+	  &-box {
+		  position: relative;
+		  height: 100%;
+  		padding: 10% 2%;
+		}
+
+		h3 {
+			font-family: $font-family-serifpro;
+			text-transform: uppercase;
+			font-weight: bold;
+			letter-spacing: 0.7px;
+			font-size: 26px;
+			line-height: 1.4em;
+		  color: #3f2038;
+		  padding: 15px;
+		  margin: 0 0 15px;
+
+			@media (max-width: $screen-sm-max) {
+				font-size: 18px;
+			}
+		}
+
+		.btn {
+			text-transform: uppercase;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+
+	&-wrapper {
+
+		@media (min-width: $screen-md) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+
+		.row {
+			margin-right: -10px;
+			margin-left: -10px;
+		}
+
+		[class*="col-"] {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	&-sidebar {
+
+		padding: 20px;
+
+		&-title {
+			margin: 0 0 15px;
+  			text-transform: uppercase;
+		}
+
+		&-list {
+			list-style: none;
+			padding-left: 0;
+
+			li {
+			  margin-bottom: 5px;
+
+				@media (max-width: $screen-sm-max) {
+					display: inline-block;
+					padding: 5px 20px;
+					border: 1px solid;
+				}
+
+			  a {
+				  display: block;
+				  color: #000;
+				  text-transform: uppercase;
+				}
+			}
+		}
+
+		&-devider {
+		  margin: 15px 0;
+		  display: block;
+		  border-top: 1px solid transparent;
+		}
+	}
+
+	&-content {
+
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: stretch;
+		flex-wrap: wrap;
+
+		&-box {
+		  background: #f7f7f7;
+		  margin-bottom: 5px;
+		  width: 50%;
+		  border: 5px solid #fff;
+		  display: flex;
+  		align-items: center;
+
+			@media (max-width: $screen-sm-max) {
+				width: 100%;
+				flex-flow: wrap;
+			}
+		}
+
+		&-full {
+			width: 100%;
+		}
+
+		&-image {
+		  width: 50%;
+		  float: left;
+
+			@media (max-width: $screen-sm-max) {
+				width: 100%;
+				float: none;
+			}
+		}
+
+		&-text {
+		  width: 50%;
+		  float: left;
+		  padding: 20px;
+
+			@media (max-width: $screen-sm-max) {
+				width: 100%;
+				float: none;
+			}
+
+		  h4 {
+		  	margin: 0 0 8px;
+			  border-bottom: 1px solid #ccc;
+			  padding-bottom: 6px;
+			  text-transform: uppercase;
+			  color: #552B4B;
+		  }
+
+		  p {
+		  	margin-bottom: 0;
+		  	line-height: 1.3em;
+		  }
+		}
+	}
+
+	&-detail {
+
+		&-info {
+			margin-top: 20px;
+			margin-bottom: 20px;
+
+			&-box {
+
+				h4 {
+					text-transform: uppercase;
+					text-align: center;
+					border-top: 1px solid;
+					border-bottom: 1px solid;
+					padding: 10px 0;
+					letter-spacing: 0.4px;
+					font-family: brandon;
+					font-weight: 600;
+				}
+
+				.btn {
+				  text-transform: uppercase;
+				  font-weight: 500;
+				  margin-bottom: 10px;
+
+				  i {
+				  	padding-right: 5px;
+				  	font-size: 120%;
+				  }
+				}
+
+			}
+		}
+
+		&-product,
+		&-featured {
+			margin-bottom: 20px;
+
+			&-head {
+			  margin: 0 0 20px;
+			  display: flex;
+			  justify-content: space-between;
+			  align-items: center;
+			  border-top: 4px solid;
+			  padding-top: 15px;
+
+				@media (max-width: $screen-sm-max) {
+					display: block;
+				}
+
+			  span {
+			  	text-transform: uppercase;
+			  	font-family: $font-family-brandon;
+			  	letter-spacing: 0.7px;
+
+					@media (max-width: $screen-sm-max) {
+						display: block;
+						margin-bottom: 15px;
+					}
+			 	}
+			}
+		}
+
+		&-product {
+
+			&-box {
+			  margin-bottom: 20px;
+			}
+
+			&-info {
+			  background-color: #eee;
+			  color: #555;
+			  padding: 10px 15px;
+
+			  h4 {
+				  margin: 0;
+				  text-transform: uppercase;
+				  font-weight: 300;
+				  font-size: 13px;
+				  letter-spacing: 0.4px;
+				}
+
+				span {
+				  display: block;
+				  text-align: right;
+				  font-weight: 500;
+				  font-size: 16px;
+				  padding-top: 5px;
+				}
+			}
+
+			&-img {
+			  border: 1px solid #f7f7f7;
+			}
+		}
+
+		&-featured {
+
+		}
+	}
+}
+
+.collections {
+
+	&-main-banner {
+
+		&-box {
+			position: relative;
+		  height: 100%;
+  		padding: 10% 2%;
+		}
+	}
+}

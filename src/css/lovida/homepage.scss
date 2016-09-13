@@ -1,0 +1,314 @@
+.main-banner {
+
+	&.owl-theme {
+
+		.owl-nav {
+			margin-top: 0;
+
+			[class*=owl-] {
+				font-size: 72px;
+				background: transparent;
+				color: rgba(0,0,0,.35);
+
+				&:hover {
+				  color: #000;
+				}
+			}
+		}
+		.owl-dots {
+
+			.owl-dot {
+
+				span {
+					border: 1px solid #552B4B;
+					background-color: #fff;
+				}
+
+				&:hover,
+				&.active {
+
+					span {
+						background-color: #552B4B;
+					}
+				}
+			}
+		}
+	}
+
+	&-box {
+	  position: absolute;
+	  height: 100%;
+	  top: 0;
+	  width: 100%;
+	  padding: 5%;
+
+		@media (max-width: $screen-sm-max) {
+			position: relative;
+		}
+
+	  .btn {
+	  	text-transform: uppercase;
+	  	font-weight: 500;
+	  	padding: 10px 20px;
+	  }
+	}
+
+	&-title {
+  	font-family: $font-family-serifpro;
+  	font-size: 35px;
+  	line-height: 1.2;
+  	font-weight: normal;
+
+		@media (max-width: $screen-sm-max) {
+			font-size: 22px;
+		}
+
+  	&.title-white {
+  		color: #fff;
+
+			@media (max-width: $screen-sm-max) {
+				color: #333;
+			}
+  	}
+  }
+}
+
+
+.homepage {
+
+	&-banner {
+
+		@media (max-width: $screen-sm-max) {
+			margin-bottom: 15px;
+		}
+	}
+
+	&-title {
+		margin: 0;
+		color: #292929;
+		font-size: 26px;
+		font-family: $font-family-brandon;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.7px;
+
+		span {
+			color: #111;
+			display: block;
+			font-size: 50%;
+			font-weight: 300;
+			line-height: 1.4;
+			padding-top: 5px;
+		}
+
+		&-group {
+	    border-bottom: 1px solid #ececec;
+	    padding-bottom: 14px;
+	    position: relative;
+	    text-align: center;
+	    margin: 2.5em 0;
+
+	    &::after {
+		    background: #212121 none repeat scroll 0 0;
+		    border-radius: 2px;
+		    bottom: -2px;
+		    content: "";
+		    display: block;
+		    height: 4px;
+		    left: 0;
+		    margin: auto;
+		    position: absolute;
+		    right: 0;
+		    width: 138px;
+			}
+		}
+	}
+
+	&-collections {
+
+		&-box {
+  		border: 1px solid #f7f7f7;
+
+			@media (max-width: $screen-sm-max) {
+				margin-bottom: 15px;
+			}
+
+  		&:hover {
+
+				img {
+					opacity: 0.8;
+					transition: all 0.5s ease 0s;
+				}
+			}
+  	}
+	}
+
+	&-category {
+
+		[class*=col] {
+			padding-left: 0;
+			padding-right: 0;
+			border: 1px solid transparent;
+		}
+
+		&-box {
+
+			@media (max-width: $screen-sm-max) {
+				margin-top: 5px;
+			}
+
+			h4 {
+				font-weight: 300;
+				text-transform: uppercase;
+				margin: 0;
+				padding: 1em;
+				background: #edeff2;
+				color: #555;
+			}
+
+			span {
+				display: block;
+				font-size: 0.8em;
+				line-height: 1.5em;
+				font-weight: normal;
+				text-transform: capitalize;
+				font-family: $font-family-serif;
+				font-style: italic;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			&:hover {
+
+				img {
+					opacity: 0.5;
+					transition: all 0.5s ease 0s;
+				}
+			}
+		}
+	}
+
+	&-product {
+
+		&-img {
+			overflow: hidden;
+		}
+
+		&-txt {
+			left: 15px;
+			margin-top: -40px;
+			position: absolute;
+			right: 15px;
+			text-align: center;
+			top: 50%;
+			z-index: 1;
+	    background: rgba(255, 255, 255, 0.8);
+		  padding: 33px 20px;
+		  transition: all 0.3s ease-out 0s;
+		}
+
+		&-box {
+		  border: 1px solid #e7e7e7;
+		  text-align: center;
+		  position: relative;
+
+			@media (max-width: $screen-sm-max) {
+				margin-bottom: 15px;
+			}
+
+		  h4 {
+			  margin: 0;
+			  line-height: 1em;
+			  text-transform: uppercase;
+			  font-weight: 300;
+			  letter-spacing: 0.7px;
+			}
+
+			img {
+				transform: scale(1);
+    		transition: all 0.3s ease-out 0s;
+			}
+
+			&:hover {
+				img {
+					transform: scale(1.2);
+				}
+
+				.homepage-product-txt {
+				background: #fff;
+				}
+			}
+		}
+
+
+	}
+
+	&-magazine {
+
+		.magazine-banner {
+
+			.item {
+				position: relative;
+
+
+				&:hover {
+					.magazine-banner-box {
+						background-color: #000;
+					}
+				}
+			}
+
+			a {
+				display: block;
+			}
+
+			&-box {
+				color: #fff;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				min-height: 100px;
+				background-color: rgba(0,0,0,0.5);
+				padding: 15px 20px;
+				transition: all 0.3s ease-out 0s;
+
+				h4 {
+					font-family: $font-family-brandon;
+					font-weight: 300;
+					font-size: 1.3em;
+					text-transform: uppercase;
+					letter-spacing: 0.7px;
+					margin: 0 0 5px;
+				}
+
+				p {
+					line-height: 1.2em;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	&-social {
+
+		margin-bottom: 2em;
+
+		.homepage-title {
+			margin-bottom: 0.5em;
+		}
+
+		ul {
+			span {
+				text-transform: uppercase;
+			}
+
+			a {
+				display: block;
+				font-size: 20px;
+			}
+		}
+	}
+
+}

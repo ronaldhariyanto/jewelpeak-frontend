@@ -1,0 +1,146 @@
+.header {
+  padding: 1em 0;
+}
+
+.logo {
+  display: block;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+
+.user-menu {
+    margin-bottom: 1.4em;
+    a {
+        font-size: 0.85em;
+        color: #636363;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+.badge {
+
+    &.badge-corner {
+        top: -8px;
+        right: -6px;
+        position: absolute;
+        color:#fff;
+    }
+}
+
+/** Search
+********************** **/
+.search {
+
+    position: relative;
+    margin-left: 1.5em;
+
+    a {
+        color: #636363;
+        display: block;
+        font-size: 20px;
+        line-height: 1em;
+    }
+
+    .search-box {
+        display:none;
+        right: 0;
+        left:auto;
+        top: 100%;
+        padding: 15px;
+        background-color: #fff;
+        position: absolute;
+        width: 274px;
+        margin-top: 36px;
+        z-index: 22;
+    }
+}
+
+/** Quick Shop Cart
+********************** **/
+.quick-cart {
+
+    position: relative;
+
+    a {
+        display: block;
+        font-size: 20px;
+        line-height: 1em;
+    }
+
+    .quick-cart-wrapper {
+        max-height:400px;
+        overflow-y:auto;
+    }
+
+    .quick-cart-box {
+        display:none;
+        right: 0;
+        left:auto;
+        top: 100%;
+        padding:10px 0;
+        background-color: #fff;
+        position: absolute;
+        width: 274px;
+        margin-top: 36px;
+        z-index: 22;
+
+        h4 {
+            font-size:17px;
+            margin:0; 
+            padding:0 10px 10px 10px;
+            border-bottom:rgba(0,0,0,0.1) 1px solid;
+        }
+
+        a {
+            display:block;
+            padding:15px 10px;
+            border-bottom:rgba(0,0,0,0.04) 1px solid;
+
+            &:hover {
+                background-color:rgba(0,0,0,0.03);
+            }
+
+            > img {
+                float:left;
+                margin-right:10px;
+            }
+
+            h6 {
+                margin:0; 
+                padding:4px 0 0 0;
+
+                text-overflow:ellipsis; 
+                white-space: nowrap;
+                overflow:hidden;
+            }
+
+            &.btn {
+                background-color:#151515;
+                border:0; margin:0;
+                padding-top:6px;
+                padding-bottom:4px;
+                font-size: 1em;
+            }
+        }
+    }
+
+    .quick-cart-footer {
+
+        padding:10px 10px 0 10px;
+
+        > span {
+            display:inline-block;
+            padding-top:3px;
+            background-color:rgba(0,0,0,0.05);
+            padding: 4px 3px;
+
+            -webkit-border-radius: 3px;
+               -moz-border-radius: 3px;
+                    border-radius: 3px;
+        }
+    }
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include partials/head %>
+  </head>
+  <body>
+    <% include partials/header %>
+    <% include partials/navigation %>
+    <% include partials/breadcrumb %>
+
+
+    <section class="checkout">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-md-9 col-sm-7 col-xs-6 col-xxs-12 text-center-xs">
+            <h1 class="checkout-title"><i class="glyphicon glyphicon-shopping-cart"></i> <span>Checkout</span></h1>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar col-xs-6 col-xxs-12 text-center-xs">
+            <h4 class="checkout-back-to"><a href=""><i class="fa fa-chevron-left"></i> Back to shopping </a></h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="row user-info">
+              <div class="col-xs-12 col-sm-12">
+                <ul class="orderstep">
+                  <li>
+                    <a href="checkout-1.html"> <i class="fa fa-map-marker"></i> <span> address</span></a>
+                  </li>
+                  <li>
+                    <a href="checkout-2.html"> <i class="fa fa fa-envelope"></i><span> Billing </span></a>
+                  </li>
+                  <li>
+                    <a href="checkout-3.html"><i class="fa fa-truck"> </i><span>Shipping</span> </a>
+                  </li>
+                  <li class="active">
+                    <a href="checkout-4.html"><i class="fa fa-money"> </i><span>Payment</span> </a>
+                  </li>
+                  <li>
+                    <a href="checkout-5.html"><i class="fa fa-check-square"> </i><span>Order</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row user-info">
+              <div class="col-lg-12">
+                <h2>Payment method</h2>
+                <p>Please select the preferred shipping method to use on this order.</p>
+                <hr>
+              </div>
+              <div class="col-xs-12 col-sm-12">
+                <div class="payment-box">
+                  <div class="panel-group payment-method" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading panel-heading-custom">
+                        <h4 class="panel-title">
+                          <a class="cashOnDelivery" data-parent="#accordion" data-toggle="collapse" href="#collapseOne">
+                            <span class="numberCircuil">Option 1</span> <strong>Cash on Delivery</strong>
+                          </a>
+                        </h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="collapseOne">
+                        <div class="panel-body">
+                          <p>All transactions are secure and encrypted, and we neverstor To learn more, please view our privacy policy.</p><br>
+                          <label class="radio-inline" for="radios-4">
+                            <input id="radios-4" name="radios" type="radio" value="4"> Cash On Delivery
+                          </label>
+                          <div class="form-group">
+                            <label for="CommentsOrder">Add Comments About Your Order</label> 
+                            <textarea class="form-control" cols="26" id="CommentsOrder" name="CommentsOrder" rows="3"></textarea>
+                          </div>
+                          <div class="form-group clearfix">
+                            <label class="checkbox-inline" for="checkboxes-1">
+                              <input id="checkboxes-1" name="checkboxes" type="checkbox" value="1"> I have read and agree to the 
+                              <a href="">Terms &amp; Conditions</a>
+                            </label>
+                          </div>
+                          <div class="pull-right">
+                            <a class="btn btn-primary btn-small" href="checkout-5.html">Order &nbsp; <i class="fa fa-arrow-circle-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading panel-heading-custom">
+                        <h4 class="panel-title">
+                          <a data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">
+                            <span class="numberCircuil">Option 2</span> <strong>PayPal</strong>
+                          </a>
+                        </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseTwo">
+                        <div class="panel-body">
+                          <p>All transactions are secure and encrypted, and we neverstor To learn more, please view our privacy policy.</p><br>
+                          <label class="radio-inline" for="radios-3">
+                            <input id="radios-3" name="radios" type="radio" value="4"> 
+                            <img alt="paypal" height="18" src="assets/images/payment/paypal-small.png"> Checkout with Paypal
+                          </label>
+                          <div class="form-group">
+                            <label for="CommentsOrder2">Add Comments About Your Order</label> 
+                            <textarea class="form-control" cols="26" id="CommentsOrder2" name="CommentsOrder2" rows="3"></textarea>
+                          </div>
+                          <div class="form-group clearfix">
+                            <label class="checkbox-inline" for="checkboxes-0">
+                              <input id="checkboxes-0" name="checkboxes" type="checkbox" value="1"> I have read and agree to the 
+                              <a href="">Terms &amp; Conditions</a></label>
+                          </div>
+                          <div class="pull-right">
+                            <a class="btn btn-primary btn-small" href="checkout-5.html">Order &nbsp; <i class="fa fa-arrow-circle-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading panel-heading-custom">
+                        <h4 class="panel-title">
+                          <a class="masterCard" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">
+                            <span class="numberCircuil">Option 3</span> <strong>MasterCard</strong>
+                          </a>
+                        </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseThree">
+                        <div class="panel-body">
+                          <p>All transactions are secure and encrypted, and we neverstor To learn more, please view our privacy policy.</p><br>
+                          <div class="panel open">
+                            <div class="credit-card">
+                              <div class="payment-title">
+                                <b>Supported Credit Cards</b>
+                              </div>
+                              <div class="payment-input">
+                                <label for="CardNumber">Credit Card Number *</label><br>
+                                <input id="CardNumber" name="Number" type="text">
+                              </div>
+                              <div class="payment-input">
+                                <label for="CardNumber2">Name on Credit Card *</label><br>
+                                <input id="CardNumber2" name="CardNumber2" type="text">
+                              </div>
+                              <div class="payment-input">
+                                <div class="form-group">
+                                  <label>Expiration date *</label><br>
+                                  <select aria-required="true" class="form-control select2" name="expire" required="">
+                                    <option value="">Month</option>
+                                    <option value="1">01 - January</option>
+                                    <option value="2">02 - February</option>
+                                    <option value="3">03 - March</option>
+                                    <option value="4">04 - April</option>
+                                    <option value="5">05 - May</option>
+                                    <option value="6">06 - June</option>
+                                    <option value="7">07 - July</option>
+                                    <option value="8">08 - August</option>
+                                    <option value="9">09 - September</option>
+                                    <option value="10">10 - October</option>
+                                    <option value="11">11 - November</option>
+                                    <option value="12">12 - December</option>
+                                  </select>
+                                  <select aria-required="true" class="form-control select2" name="year" required="">
+                                    <option value="">Year</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="payment-input">
+                                <label for="VerificationCode">Verification Code *</label><br>
+                                <input id="VerificationCode" name="VerificationCode" type="text"><br>
+                              </div>
+                              <div>
+                                <input id="saveInfoid" name="saveInfo" type="checkbox">
+                                <label for="saveInfoid">&nbsp;Save my Card information</label>
+                              </div>
+                            </div>
+                            <div class="pull-right">
+                              <a class="btn btn-primary btn-small" href="checkout-5.html">Order &nbsp; <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-footer">
+              <div class="box-footer">
+                <div class="pull-left">
+                  <a class="btn btn-default" href="checkout-3.html">
+                    <i class="fa fa-arrow-left"></i> &nbsp; Billing Address
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-5 sidebar-right">
+            <div class="content-box">
+              <div class="cart cost-details">
+                  <div class="table-block" id="order-detail-content">
+                    <a class="btn btn-primary btn-lg btn-block " title="checkout" href="">
+                      Proceed to checkout &nbsp; <i class="fa fa-arrow-right"></i>
+                    </a>
+
+                    <div class="cart-mini-table">
+                      <table id="cart-summary" class="table">
+                        <tbody>
+                          <tr>
+                            <td>Total products</td>
+                            <td class=""><b>S$1,200.00</b></td>
+                          </tr>
+                          <tr style="">
+                            <td>Shipping</td>
+                            <td class="price"><span class="success">Free shipping!</span></td>
+                          </tr>
+                          <tr class="cart-total-price ">
+                            <td>Total (tax excl.)</td>
+                            <td class=""><b>S$1,200.00</b></td>
+                          </tr>
+                          <tr>
+                            <td>Total tax</td>
+                            <td class="" id="total-tax"><b>S$0.00</b></td>
+                          </tr>
+                          <tr>
+                            <td> Total</td>
+                            <td class="price" id="total-price">S$1,200.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+      </div>
+    </section>
+
+    <% include partials/footer %>
+    <% include partials/scripts %>
+  </body>
+</html>

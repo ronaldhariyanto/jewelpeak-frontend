@@ -1,0 +1,99 @@
+.nav > li.home {
+  width: 32px;
+}
+
+.navigation {
+
+  .navbar-collapse {
+    position: relative;
+  }
+
+  .dropdown {
+
+    &:hover {
+
+      > a:after {
+        display: block;
+        width: 0;
+        height: 0;
+        border: solid;
+        content: "";
+        margin: 0 auto -10px;
+        border-color: transparent transparent #fff transparent;
+        border-width: 0 10px 10px 10px;
+        position: relative;
+        bottom: -3px;
+      }
+
+      > .dropdown-menu {
+        display:block;
+        transition: all 0.5s ease 0s;
+        padding: 20px;
+        border-top: 1px solid transparent;
+        min-width: 220px;
+      }
+
+      &.mega-menu {
+        position: inherit;
+      }
+    }
+  }
+
+  &-child {
+
+    &-box {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    &-title {
+      font-family: $font-family-brandon;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+
+      > a {
+        font-family: $font-family-brandon;
+      }
+    }
+
+    &-list {
+
+      margin-bottom: 5px;
+
+      a {
+        color: #666;
+        display: flex;
+        line-height: 26px;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        i {
+          font-size: 26px;
+          padding-right: 10px;
+        }
+      }
+    }
+
+    &-devider {
+      display: block;
+      height: 1px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+  }
+}
+
+.mega-menu-content {
+  width: 100%;
+}
+
+.mobile-logo {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+
+  img {
+    height: 50px;
+  }
+}

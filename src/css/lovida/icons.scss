@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "icon-lovida";
+  src:url("../fonts/icon-lovida.eot");
+  src:url("../fonts/icon-lovida.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icon-lovida.woff") format("woff"),
+    url("../fonts/icon-lovida.ttf") format("truetype"),
+    url("../fonts/icon-lovida.svg#icon-lovida") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "icon-lovida" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icon-lovida" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-diamond-o:before {
+  content: "\61";
+}
+.icon-gemstone-pendant:before {
+  content: "\62";
+}
+.icon-royal-halo:before {
+  content: "\63";
+}
+.icon-gemstone-ring:before {
+  content: "\64";
+}
+.icon-diamond-pair:before {
+  content: "\65";
+}
+.icon-diamond:before {
+  content: "\66";
+}
+.icon-engagement-ring:before {
+  content: "\67";
+}
+.icon-stackable-ring:before {
+  content: "\68";
+}
+.icon-pendant-diamond:before {
+  content: "\69";
+}
+.icon-diamond-more:before {
+  content: "\6a";
+}
+.icon-nodiamond-ring-o:before {
+  content: "\6b";
+}
+.icon-engagement-ring-o:before {
+  content: "\6c";
+}
+.icon-lovida-34:before {
+  content: "\6d";
+}
+.icon-pendant:before {
+  content: "\6e";
+}
+.icon-gemstone-earing:before {
+  content: "\6f";
+}
+.icon-matching:before {
+  content: "\70";
+}
+.icon-studs:before {
+  content: "\71";
+}
+.icon-heart-shaped:before {
+  content: "\72";
+}
+.icon-marquise-cut:before {
+  content: "\73";
+}
+.icon-oval-cut:before {
+  content: "\74";
+}
+.icon-pear-shaped:before {
+  content: "\75";
+}
+.icon-princess-cut:before {
+  content: "\76";
+}
+.icon-diamond-ring:before {
+  content: "\77";
+}
+.icon-radiant-cut:before {
+  content: "\78";
+}
+.icon-round-cut:before {
+  content: "\79";
+}
+.icon-emerald-cut:before {
+  content: "\7a";
+}
+.icon-cushion-cut:before {
+  content: "\41";
+}
+.icon-asscher-cut:before {
+  content: "\42";
+}
+.icon-bridal-set:before {
+  content: "\43";
+}
+.icon-vintage:before {
+  content: "\44";
+}
+.icon-three-stone:before {
+  content: "\45";
+}
+.icon-solitaire:before {
+  content: "\46";
+}
+.icon-tension:before {
+  content: "\47";
+}
+.icon-side-stone:before {
+  content: "\48";
+}
+.icon-pave:before {
+  content: "\49";
+}
+.icon-halo:before {
+  content: "\4a";
+}
+.icon-channel-set:before {
+  content: "\4b";
+}
+.icon-eternity-ring:before {
+  content: "\4c";
+}
+.icon-classic-ring:before {
+  content: "\4d";
+}
+.icon-carved-ring:before {
+  content: "\4e";
+}
+.icon-alternative-ring:before {
+  content: "\4f";
+}
+.icon-anniversary-ring:before {
+  content: "\50";
+}
+.icon-lovida-75:before {
+  content: "\51";
+}
+.icon-compare:before {
+  content: "\52";
+}
